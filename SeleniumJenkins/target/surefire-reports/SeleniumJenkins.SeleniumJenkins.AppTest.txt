@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: SeleniumJenkins.SeleniumJenkins.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.23 s <<< FAILURE! - in SeleniumJenkins.SeleniumJenkins.AppTest
+validateLoginTC(SeleniumJenkins.SeleniumJenkins.AppTest)  Time elapsed: 1.117 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
+	at SeleniumJenkins.SeleniumJenkins.AppTest.validateLoginTC(AppTest.java:33)
+
+validateLoginTC(SeleniumJenkins.SeleniumJenkins.AppTest)  Time elapsed: 1.249 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
+	at SeleniumJenkins.SeleniumJenkins.AppTest.validateLoginTC(AppTest.java:33)
+
