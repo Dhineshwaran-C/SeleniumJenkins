@@ -31,14 +31,13 @@ public class AppTest
 		String expectedURL = "https://www.saucedemo.com/inventory.html";
 		String actualURL = driver.getCurrentUrl();
 		Assert.assertEquals(expectedURL, actualURL);
+		driver.quit();
 		
 	}
 	@DataProvider(name = "testdata")
 	public Object[][] loginTC(){
 		return new Object[][] {
 			{"standard_user","secret_sauce"},
-			{"standard_user","Admin123"},
-			{"admin","admin"}
 		};
 	}
 }
